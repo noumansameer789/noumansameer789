@@ -8,7 +8,7 @@ MSc Data Science candidate at the University of Exeter with a BEng in Electrical
 
 | Project | What it demonstrates |
 | --- | --- |
-| [UK Retrofit RAG Assistant](https://github.com/noumansameer789/uk-retrofit-rag-assistant) | Citation-first retrieval, FastAPI, Docker, tests and CI for UK retrofit guidance |
+| [UK Retrofit LLM/RAG Assistant](https://github.com/noumansameer789/uk-retrofit-rag-assistant) | Grounded generation with OpenAI-compatible/Ollama adapters, FastAPI, Docker, injection controls, evaluation and CI |
 | [UK Open-Data Analytics](https://github.com/noumansameer789/uk-open-data-analytics) | Reproducible EPC/STATS19 analytics, data-quality controls and honest singular-fit diagnosis |
 | [ECG Heartbeat 1D CNN](https://github.com/noumansameer789/ecg-heartbeat-1d-cnn) | Imbalance-aware five-class ECG evaluation with leakage controls and per-class metrics |
 | [Solar Battery ML Controller](https://github.com/noumansameer789/solar-battery-ml-controller) | XGBoost solar forecasting joined to Raspberry Pi/ESP32 control and battery-safety constraints |
@@ -28,7 +28,7 @@ MSc Data Science candidate at the University of Exeter with a BEng in Electrical
 
 ## Technical focus
 
-**Data and ML:** Python, SQL, pandas, NumPy, scikit-learn, XGBoost, regression, classification, clustering, statistical analysis and signal processing  
+**Data and ML:** Python, SQL, pandas, NumPy, scikit-learn, XGBoost, LLM/RAG, grounded prompting, regression, classification, clustering, statistical analysis and signal processing  
 **Engineering:** MATLAB, Raspberry Pi, ESP32, Arduino, embedded control, battery systems and network design  
 **Delivery:** Git, GitHub Actions, automated testing, FastAPI, Docker, reproducible pipelines and technical documentation
 
