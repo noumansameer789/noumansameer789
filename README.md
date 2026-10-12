@@ -1,6 +1,6 @@
 # Nouman Sameer
 
-MSc Data Science candidate at the University of Exeter with a BEng in Electrical Engineering. I build evidence-led machine-learning, analytics and embedded systems, with particular interests in reliable evaluation, energy, physiological signals and responsible AI.
+MSc Data Science candidate at the University of Exeter with a BS in Electrical Engineering. I build evidence-led machine-learning, analytics and embedded systems, with particular interests in reliable evaluation, energy, physiological signals and responsible AI.
 
 [LinkedIn](https://www.linkedin.com/in/nouman-sameer-ba0b4931a) · [GitHub portfolio](https://github.com/noumansameer789?tab=repositories)
 
@@ -8,7 +8,8 @@ MSc Data Science candidate at the University of Exeter with a BEng in Electrical
 
 | Project | What it demonstrates |
 | --- | --- |
-| [UK Retrofit LLM/RAG Assistant](https://github.com/noumansameer789/uk-retrofit-rag-assistant) | Grounded generation with OpenAI-compatible/Ollama adapters, FastAPI, Docker, injection controls, evaluation and CI |
+| [GridFlex GB](https://github.com/noumansameer789/uk-grid-flexibility-ml-platform) · [Live demo](https://nouman-gridflex-gb.nimblepeony1.chatgpt.site) | Live GB carbon forecasts and constrained charging; public Cloudflare deployment, frozen later holdout, MLflow, Docker and CI |
+| [UK Retrofit LLM/RAG Assistant](https://github.com/noumansameer789/uk-retrofit-rag-assistant) | Extractive RAG with local Ollama, FastAPI and citation controls; 64 real-model regression cases and 46 unit/contract tests |
 | [UK Open-Data Analytics](https://github.com/noumansameer789/uk-open-data-analytics) | Reproducible EPC/STATS19 analytics, data-quality controls and honest singular-fit diagnosis |
 | [ECG Heartbeat 1D CNN](https://github.com/noumansameer789/ecg-heartbeat-1d-cnn) | Imbalance-aware five-class ECG evaluation with leakage controls and per-class metrics |
 | [Solar Battery ML Controller](https://github.com/noumansameer789/solar-battery-ml-controller) | XGBoost solar forecasting joined to Raspberry Pi/ESP32 control and battery-safety constraints |
@@ -28,10 +29,12 @@ MSc Data Science candidate at the University of Exeter with a BEng in Electrical
 
 ## Technical focus
 
-**Data and ML:** Python, SQL, pandas, NumPy, scikit-learn, XGBoost, LLM/RAG, grounded prompting, regression, classification, clustering, statistical analysis and signal processing  
+**Data and ML:** Python, SQL, pandas, NumPy, scikit-learn, LightGBM, XGBoost, LLM/RAG, grounded prompting, regression, classification, clustering, statistical analysis and signal processing  
 **Engineering:** MATLAB, Raspberry Pi, ESP32, Arduino, embedded control, battery systems and network design  
-**Delivery:** Git, GitHub Actions, automated testing, FastAPI, Docker, reproducible pipelines and technical documentation
+**Delivery:** Git, GitHub Actions, automated testing, FastAPI, Docker, MLflow, Cloudflare Workers, reproducible pipelines and technical documentation
 
 ## Working principles
 
 Leakage control, explicit baselines, per-class metrics, reproducible environments, honest ablations and conclusions that stay inside the evidence.
+
+GridFlex and the retrofit assistant are AI-assisted independent portfolio projects. Their repositories record actual results, failed experiments and limitations. Azure Terraform is validated configuration; the public GridFlex service runs on Cloudflare Workers.
