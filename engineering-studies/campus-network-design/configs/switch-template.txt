@@ -1,0 +1,18 @@
+! Portfolio template — replace VLAN IDs, interfaces and secrets for the lab.
+vlan 10
+ name STAFF
+vlan 20
+ name STUDENT
+vlan 30
+ name LAB
+interface range gigabitEthernet0/1-20
+ switchport mode access
+ switchport access vlan 20
+ switchport port-security
+ switchport port-security maximum 1
+ switchport port-security violation restrict
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+interface gigabitEthernet0/24
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20,30
